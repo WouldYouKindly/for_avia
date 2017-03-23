@@ -4,7 +4,6 @@ from decimal import Decimal
 import attr
 from tabulate import tabulate
 
-
 @attr.s
 class Flight:
     carrier = attr.ib()
